@@ -1,0 +1,56 @@
+a:link{
+   color: green;
+}
+a:visited{
+    color: red;
+}
+a:hover{
+    background-color: darkviolet;
+    color: fuchsia;
+}
+a:active{
+    background-color: darkorange;
+}
+
+
+a{
+    background: blue;
+    opacity:0.3;
+    margin-top: 5px;
+    display: inline-block;
+    border-radius: 0 10px 0 10px;
+    border: 2px solid green;
+    padding: 10px;
+    border: 2px solid green;
+    text-decoration: none;
+}
+
+.list{
+    list-style-type:georgian;
+}
+.list{
+    list-style-type: upper-latin;
+}
+.list{
+    list-style-image: url();
+        list-style-position: outside;
+}
+table{
+    width: 50%;
+}
+table,th,td{
+    border: 2px solid green;
+    border-collapse: collapse;
+    
+    
+}
+th{
+    height: 
+}
+td{
+    text-align: right;
+    vertical-align: middle;
+};
+tr:hover{
+    background: gray;
+}
